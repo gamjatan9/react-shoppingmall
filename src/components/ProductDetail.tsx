@@ -15,13 +15,8 @@ function ProductDetail() {
     }
   }, [dispatch, productId]);
 
-  if (!product) {
-    return <div>Loading...</div>; // or a loading spinner, etc.
-  }
-
   return (
     <div className="container mx-auto mt-10">
-      {/* 상품 상세 정보를 여기에 표시 */}
     </div>
   );
 }
